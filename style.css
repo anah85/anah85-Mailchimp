@@ -1,108 +1,72 @@
-#welcome{
-font-family:garamond;
-text-align:right;
-padding-right:17em;
-    font-size: 2em;
-}
+*{
+margin:0; 
+padding:0;
+text-decoration:none;
+} 
 header{
-    width: 100%;
-    height: 10%;
-    font-family:verdana;
-    }
-aside{
-width: 40%;
-height: 70%;
-display: inline-block;
-font-family:verdana;
-text-align: center;
+display: flex;
+justify-content: space-around;
+}
+main{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-around;
+line-height: 2;
 }
 #mono{
-    width:40%;		
-    height:30%;			
-     position:absolute;		
-    left:80px;		
-    top:30px; 
-   	z-index:20;	
+width: 25%;
+text-align: right;
 }
-section{
-width: 40%;
-height: 70%;
-display: inline-block;
-font-family:verdana;
-line-height: 2em;
+.center{
+font-family: 'Poppins';    
+width: 55%;
+margin: 1%;
+padding: 1%;
 }
-#password{
-    background:none;
-    border:none;
-    color:blue;
-    cursor: pointer;
-    font-weight: 300;
-    text-align:right;
-    padding: 0;
-    top: 0;
-    right: 0;
-  }
-.up{
-    font-size:20px;
-    font-family:Verdana,Helvetica;
-    font-weight:bold;
-    color:rgb(164, 160, 160);
-    background: white;
-    border:1px solid rgb(164, 160, 160);
-    width:30%;
-    height:70px;
-
+input{
+width: 80%;
+height: 30px;
+padding: 3px;
+font-size: 9px;
+line-height:2px;
+color: gray;
+background-color: white;
+border: 1px solid grey;
+border-radius: 2px;
 }
-#aceptar{
-    width: 70%;
-    text-align:right;
-    float: right;
-    padding: 0;
-    margin:0;
-    float: right;
-    vertical-align: bottom;
-   
+nav{
+width: 100%;
+height: 40%;
+display: flex;
+padding-left: 2%;
+margin-top: 2%;
 }
-#cuenta{
-    width: 100%;
-    height: 100%;
-
-}
-
-#uno{
+#uno, #dos{
 width: 50%;
 height: 250px;
 float: left;
-}
-#dos{
-    width: 50%;
-    height: 250px;
-    float:left;
-    }
-footer{
+} 
+#cuenta{
+display: flex;
 width: 100%;
-height: 15%;
-font-family:verdana;
+height: 100%;
+align-items: center;
 }
-#pie{
-    width: 55%;
-    height: 15%;   
-    text-align: left;
-    font-size: 15px;
-    float:right;  
-    margin-right: 5em;
+.up{
+color:rgb(164, 160, 160);
+background: white;
+border:1px solid rgb(164, 160, 160);
+width:30%;
+height:70px;
 }
-input{
-    width: 100%;
-    height: 30px;
-    padding: 3px 12px;
-    font-size: 9px;
-    line-height:2px;
-    color: gray;
-    background-color: white;
-    background-image: none;
-    border: 1px solid grey;
-    border-radius: 2px;
+#aceptar{
+width: 100%;
+margin-left: 10%;
+vertical-align:text-top;
 }
-
-
+footer{
+display: flex;
+justify-content: space-around;
+padding-left: 5%;
+}

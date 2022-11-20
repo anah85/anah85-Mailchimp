@@ -5,39 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
  <header>
     <div id="welcome">	
         <h1>Welcome to Mailchimp</h1>	
-     </div>		
-    	   		
- </header>	
-            
-<aside>	
-   <div id="mono"><img src="mono.png" alt="mono con gorra"></div>
-</aside>	
-            
- <section>		
-    <p>Find you people. Engage your customers. Build your brand. Do it all 
+     </div>			   		
+ </header>	                       
+ <main>	
+    <div id="mono"><img src="mono.png" alt="mono con gorra"></div>
+    <div class="center">
+    <p>Find you people. Engage your customers. Build your brand. Do it all<br> 
     whith Mailchimp's Marketing Plataform. Already have an account? <a href="https://login.mailchimp.com/signup/?plan=free_monthly_plan_v0" target="_blank">Log in</a></p>	
 <form action="/next-page" method="post">
      <span>
     <label for="email"><strong>Email</strong></label><br>
-    <input type="email" size="60" id="email" name="email"> <br>
+    <input type="email" name="email"> <br>
                          
     <label for="username"><strong>Username</strong></label><br>
-    <input type="username" size="60" id="pwd" name="username"> <br>
+    <input type="username" name="username"> <br>
 
-    <label for="pwd"><strong>Password</strong></label>
-    <button id="password" type="button" aria-label="Muestra la contraseña como texto plano. Advertencia: esto hará que se muestre su contraseña en la pantalla.">Show</button>
-    <input id="box-password" name="password" type="password" autocomplete="current-password" required>
+    <label for="pwd"><strong>Password</strong></label><br>
+    <input name="password" type="password" autocomplete="current-password" required>
     </span>
 </form>
-<span>
+<nav>
 <div id="uno">
     <ul>
         <li>One lowercase character</li>
@@ -51,7 +47,7 @@
         <li>8 characters minimum</li>
      </ul>
 </div>
-</span>
+</nav>
 <div id="cuenta">
     <button class="up">
         <div id="up">Sign Up</div>
@@ -59,12 +55,12 @@
     <div id="aceptar">
     <input type="checkbox" class="box" name="aceptar">
     <label for="accept">I don't want to service receive emails about new <br>
-        Mailchimp products, best pratices, or special
+        Mailchimp products, best pratices, or special<br>
         offers.</label>  
     </div>
 </div>
-
-</section>	
+</div>	
+</main>	
             
 <footer>	
 <div id="pie">
